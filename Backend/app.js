@@ -8,7 +8,6 @@ app.use(express.json()); // tikrinu ar siunciami duomenys yra JSON formato
 app.use(cors());
 app.use('/books', router); // localhost:5000/books
 
-
 mongoose
   .connect(
     'mongodb+srv://admin1:admin1@jevbaigiamasismongo.lhbp8q7.mongodb.net/?retryWrites=true&w=majority'

@@ -7,11 +7,12 @@ const About = () => {
     <div>
       <Box display="flex" flexDirection="column" alignItems="center">
         <br></br>
-        <Typography sx={{ fontFamily: 'fantasy' }} variant="h3">
-          Paprastas projektas sukurtas pagal savo įgudžius. Vietoje ASP .NET
-          naudojau Node.js rašyti backend. Pradėjau mokytis .NET po naujųjų
-          metų, tad reiktų dar bent mėnėsio, kad galėčiau rašyti backend su šia
-          technologija (ar bent normaliai ją suprasti).
+        <Typography sx={{ fontFamily: '-apple-system' }} variant="h3">
+          Paprastas projektas sukurtas pagal savo šiuometinius įgudžius. Vietoje .NET
+          naudojau Node.js rašyti backend'ą. Pradėjau mokytis .NET po naujųjų
+          metų, tad reiktų dar mažiausiai mėnėsio, kad galėčiau rašyti backend su šia
+          technologija (ar bent normaliai ją suprasti). Nemėgstu vynioti į vatą ir
+          įvardiju kaip yra.
         </Typography>
       </Box>
     </div>
