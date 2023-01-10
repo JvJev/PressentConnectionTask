@@ -11,7 +11,6 @@ import React, { useEffect, useState } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import './Book.css';
 
-
 const BookDetail = () => {
   const [inputs, setInputs] = useState();
   const id = useParams().id;
@@ -111,19 +110,18 @@ const BookDetail = () => {
               variant="outlined"
               name="image"
             />
-            <div className='imageDivPreview'>
-      <img src={inputs.image} />
-      </div>
+            <div className="imageDivPreview">
+              <img src={inputs.image} />
+            </div>
             <FormControlLabel
               control={
                 <Checkbox
                   checked={checked}
                   onChange={() => setChecked(!checked)}
-                />              
+                />
               }
               label="Available"
             />
-
             <Button variant="contained" type="submit">
               Update Book
             </Button>

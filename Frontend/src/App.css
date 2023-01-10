@@ -37,21 +37,21 @@
   }
 }
 
-.superHome{
+.superHome {
   background-image: url(https://wallpaperaccess.com/full/4167709.gif);
   height: 100vh;
   background-size: cover;
 }
-.flex{
+.flex {
   display: flex;
   flex-direction: column;
 }
 
-.right{
+.right {
   align-content: flex-start;
 }
 
-.homePageMargins{
+.homePageMargins {
   padding: 1rem;
   margin-top: 50px;
 }

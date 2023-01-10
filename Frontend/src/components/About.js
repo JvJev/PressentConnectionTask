@@ -9,9 +9,9 @@ const About = () => {
         <br></br>
         <Typography sx={{ fontFamily: 'fantasy' }} variant="h3">
           Paprastas projektas sukurtas pagal savo įgudžius. Vietoje ASP .NET
-          naudojau Node.js. Pradėjau mokytis .NET po naujųjų metų, tad reiktų
-          dar bent mėnėsio, kad galėčiau rašyti backend su šia technologija (ar
-          bent normaliai suprasti).
+          naudojau Node.js rašyti backend. Pradėjau mokytis .NET po naujųjų
+          metų, tad reiktų dar bent mėnėsio, kad galėčiau rašyti backend su šia
+          technologija (ar bent normaliai ją suprasti).
         </Typography>
       </Box>
     </div>

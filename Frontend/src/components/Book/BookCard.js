@@ -16,17 +16,17 @@ const BookCard = (props) => {
 
   return (
     <div className="card">
-      <div className='imageDiv'>
-      <img src={image} alt={name} />
+      <div className="imageDiv">
+        <img src={image} alt={name} />
       </div>
-      
+
       <div className="book-info">
         <p>By {author}</p>
         <p>"{name}"</p>
         <p>{description}</p>
         <p>{price} Eur</p>
       </div>
-      <div className='buttonDiv'>
+      <div className="buttonDiv">
         <Button LinkComponent={Link} to={`/books/${_id}`} sx={{ mt: 'auto' }}>
           Update
         </Button>
@@ -34,7 +34,6 @@ const BookCard = (props) => {
           Delete
         </Button>
       </div>
-      
     </div>
   );
 };
