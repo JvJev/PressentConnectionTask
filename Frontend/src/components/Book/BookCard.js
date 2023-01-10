@@ -1,7 +1,7 @@
 import { Button } from '@mui/material';
 import axios from 'axios';
 import { Link, useNavigate } from 'react-router-dom';
-import './Book.css';
+import './bookStyles.css';
 
 const BookCard = (props) => {
   const history = useNavigate();

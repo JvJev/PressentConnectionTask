@@ -9,7 +9,7 @@ import {
 import axios from 'axios';
 import React, { useEffect, useState } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
-import './Book.css';
+import './bookStyles.css';
 
 const BookDetail = () => {
   const [inputs, setInputs] = useState();

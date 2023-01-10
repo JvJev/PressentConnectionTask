@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
-import Book from './BookCard';
-import './Book.css';
+import Book from './bookCard';
+import './bookStyles.css';
 import { Button } from '@mui/material';
-import { Link, useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const URL = 'http://localhost:5000/books';
 const fetchHandler = async () => {

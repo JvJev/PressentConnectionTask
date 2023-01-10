@@ -5,7 +5,7 @@ import Home from './components/Home';
 import AddBook from './components/AddBook';
 import Books from './components/Book/listPage';
 import About from './components/About';
-import BookUpdate from './components/Book/BookUpdate';
+import BookUpdate from './components/Book/listUpdate';
 
 function App() {
   return (
